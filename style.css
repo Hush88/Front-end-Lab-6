@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+    padding: 0;
+
+    background-color: #9DB2BF;
+    color: #DDE6ED;
+
+    font-family: "Montserrat", serif;
+    font-weight: 400;
+}
+
+#user-info {
+    margin: 50px auto;
+    max-width: 80%;
+
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+
+    padding: 20px;
+
+    background-color: #27374D;
+    border-radius: 20px;
+    border: 5px solid #425869;
+
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+    overflow-x: auto;
+}
+
+.user-card {
+    background-color: #526D82;
+
+    width: 300px;
+    height: 500px;
+
+    margin: 0;
+    padding: 15px;
+
+    border: 3px solid #455c6e;
+    border-radius: 20px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 4px 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.user-card:hover {
+    transform: translateY(-10px);
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 8px 20px;
+}
+
+.user-card img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+
+    border: 3px solid #DDE6ED;
+    margin-bottom: 15px;
+}
+
+.user-card p {
+    margin: 10px 0;
+    text-align: center;
+    font-size: 1.1em;
+
+    word-wrap: break-word;
+}
+
+.user-card p:first-child {
+    font-weight: bold;
+    font-size: 1.3em;
+    margin-bottom: 20px;
+}
+
+
+button {
+    background-color: #27374D;
+    border-radius: 20px;
+    border: 5px solid #425869;
+    color: #DDE6ED;
+
+    display: block;
+    width: 300px;
+    height: 70px;
+    margin: 50px auto;
+
+    font-size: 36px;
+
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 4px 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+button:hover {
+    background-color: #222f43;
+}
+
+button:active {
+    transform: translateY(5px);
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 8px 20px;
+}
+
+
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+::-webkit-scrollbar-track {
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #526D82;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #3a4c62;
+}
